@@ -1,0 +1,92 @@
+/* Universal */
+:root {
+    --primary: #36a5b2;
+    --background: #f6f6f6;
+    --secondary: white;
+    --third: #b24336;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    background-color: var(--secondary);
+    position: sticky;
+    height: 86px;
+  }
+  
+  .navbar .navbar-logo img {
+    width: 150px;
+  }
+  
+  .navbar .navbar-nav a {
+    color: var(--primary);
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 16px;
+  }
+  
+  .navbar .navbar-nav .active {
+    border-bottom: var(--primary) 2px solid;
+  }
+  
+  .navbar .navbar-login a {
+    background-color: var(--primary);
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: var(--secondary);
+    font-weight: bold;
+  }
+
+  /* What to Do */
+.what-to-do {
+    padding: 20px 7%;
+    margin: 70px 0;
+  }
+
+.what-to-do .title {
+    text-align: center;
+  }
+
+  .search {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+  .kiri{
+    float: left;
+  }
+  .kanan{
+    float: right;
+  }
+  .form_login{
+    /*membuat lebar form penuh*/
+    box-sizing : border-box;
+    width: 50%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+  }
+  .tombol_login{
+    background: #294B67;
+    color: white;
+    font-size: 11pt;
+    /* width: 50%; */
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px; 
+  }
